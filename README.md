@@ -8,12 +8,13 @@
 [github-discussions]: https://github.com/ultraleap/leapc-python-bindings/discussions "Github Discussions"
 
 <!--content-->
-# Gemini LeapC Python Bindings
+# Gemini LeapC Python Bindings UTF-8 Fix version
 
 [![mail](https://img.shields.io/badge/Contact-support%40ultraleap.com-00cf75)](mailto:support@ultraleap.com)
 [![discord](https://img.shields.io/badge/Discord-Server-blueviolet)][discord]
 ![GitHub](https://img.shields.io/github/license/ultraleap/leapc-python-bindings)
 
+This is the forked and UTF-8 Fix version for people who facing UnicodeDecodeError when building leapc-cffi.
 Open-source Python bindings for the Gemini LeapC API. Allowing developers to use Ultraleaps Hand Tracking technology
 with Python. Including build instructions and some simple examples to get started with. 
 
@@ -73,6 +74,9 @@ leap, such as: `ModuleNotFoundError: No module named 'leapc_cffi._leapc_cffi'`
 If you'd like to build your own compiled module, you will still require a Gemini install and a C compiler of your 
 choice. Follow the steps below:
 
+- Make sure you have ![Microsoft Visual Cpp Build Tools](https://visualstudio.microsoft.com/ja/visual-cpp-build-tools/) installed  
+
+- Operate following command
 ```
 # Create and activate a virtual environment
 pip install -r requirements.txt
