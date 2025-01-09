@@ -74,7 +74,7 @@ leap, such as: `ModuleNotFoundError: No module named 'leapc_cffi._leapc_cffi'`
 If you'd like to build your own compiled module, you will still require a Gemini install and a C compiler of your 
 choice. Follow the steps below:
 
-- Make sure you have ![Microsoft Visual Cpp Build Tools](https://visualstudio.microsoft.com/ja/visual-cpp-build-tools/) installed  
+- Make sure you have [Microsoft Visual Cpp Build Tools][https://visualstudio.microsoft.com/ja/visual-cpp-build-tools/] installed  
 
 - Operate following command
 ```
